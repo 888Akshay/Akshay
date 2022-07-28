@@ -21,6 +21,8 @@ public class testclass1 {
         
 		
 		static WebDriver driver;
+		
+		
 		@Parameters("browser")
 		@BeforeClass
 		public void beforeClass(String a) throws InterruptedException
